@@ -1,0 +1,63 @@
+/*
+autor
+email
+tema
+versão
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+body{
+	background-color: #6495ED;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	
+	width: 1070px;
+	margin-left: auto;
+margin-right: auto;
+}
+#navbar{
+display: flex;
+}
+#navbar li{
+	list-style-type: none;
+}
+#navbar a{
+margin: 10px;
+color:#fff; 
+text-decoration: none;
+}
+#navbar a:hover{
+	color: #000;
+}
+
+
+#brand{
+width: 90px;
+}
+
+
+	*{
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	/*id e classes*/
+
+	#container{
+		width: 600px;
+		height: 600px;
+		border: 1px solid black;
+		display: flex;
+		/*justify-content: space-around;
+		/*justify-content: center;*/
+		justify-content: space-between;
+		/*align-items: center;*/
+		align-items: flex-end;
+
+	}
+	.box{
+		width: 70px; 
+		height: 70px;
+		border: 1px solid black;
+	}

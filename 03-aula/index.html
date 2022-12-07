@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/slide.css">
+   <!--Instalando icones do bootstrap-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <header>
+<div class="container" id="header">
+    <a href="index.html">
+      <img src="1450332.png" alt="Logotipo" id="logo">
+    </a>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Quem Sou</a></li>
+            <li><a href="#">Portifólio</a></li>
+            <li><a href="#">Fale Comigo</a></li>
+        </ul>
+    </nav>
+</div>
+    </header>
+
+    <main>
+<!-- Slide show-->
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img_nature_wide.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img_snow_wide.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img_mountains_wide.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+<!-- Slide show-->
+<div class="container" id="about">
+    <div id="about-photo">
+        Aqui entra a foto
+    </div>
+    <div id="about-description">
+        <h1>Valentin Eduardo C. B. santos</h1>
+        <h2>Full Stack</h2>
+        <p> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, culpa reprehenderit suscipit omnis dolor deserunt veniam officiis blanditiis, iste beatae, ut at natus aperiam maiores distinctio excepturi amet quis dolore. <br>
+            Tenetur ab nesciunt odio harum accusamus eum quos mollitia natus, doloremque ut temporibus beatae quis dolorum maxime hic, optio corporis vero. Iste corporis expedita saepe enim velit! Accusamus, asperiores fugit! <br>
+            Hic labore minus ducimus doloribus ea. Aliquam suscipit saepe eaque ducimus quo explicabo sit iste, ipsam rem quod nulla? Ipsam laudantium repellendus minus, recusandae voluptates harum numquam totam eligendi voluptatibus!
+        </p>
+    </div>
+</div>
+    </main>
+    
+    <footer>
+        <div  class="container" id="footer">
+<div id="footer-left">
+                    <!-- o "&copy" faz aparecer o simbolo de direitos reservados-->
+Todos os direitos reservados &copy;
+</div>
+<div  id="footer-right">
+<nav>
+    <ul class="navbar">
+        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+    </ul>
+</div>
+</nav>
+
+</div>
+    </footer>
+  <script src="script/script.js"></script>
+</body>
+</html>
